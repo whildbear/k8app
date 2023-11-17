@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   app:
   - apiVersion: v2
+    created: "2023-11-17T17:20:49.56783355Z"
+    description: Deployment for base pinup app
+    digest: 501763672c30d5ccc5766099b8dee9f8d658126e3c2b03e67e03de77b1c6f627
+    maintainers:
+    - email: d7561985@gmail.com
+      name: DevOps
+    name: app
+    urls:
+    - https://github.com/whildbear/k8app/releases/download/app-3.1.23/app-3.1.23.tgz
+    version: 3.1.23
+  - apiVersion: v2
     created: "2023-11-17T16:52:01.630374607Z"
     description: Deployment for base pinup app
     digest: a2ad43aae4ae60d0d36806e92a0f764850eede2f6196cd04a8297936fbe8b82c
@@ -145,4 +156,4 @@ entries:
     urls:
     - https://github.com/d7561985/k8app/releases/download/tel-0.1.3/tel-0.1.3.tgz
     version: 0.1.3
-generated: "2023-11-17T16:52:01.630436241Z"
+generated: "2023-11-17T17:20:49.567881671Z"
